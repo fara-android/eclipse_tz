@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:eclipse_tz/app/data/entities/album_with_photos/album_with_photos_entity.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import '../../../domain/use_cases/album_use_case.dart';

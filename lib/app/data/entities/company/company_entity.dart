@@ -1,4 +1,3 @@
-import 'package:eclipse_tz/app/data/entities/geo/geo_entity.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'company_entity.freezed.dart';

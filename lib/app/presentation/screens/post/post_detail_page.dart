@@ -27,7 +27,7 @@ class _PostDetailPageState extends State<PostDetailPage> {
   TextEditingController emailController = TextEditingController();
   TextEditingController commentController = TextEditingController();
 
-  void _clearText() {
+  void clearText() {
     nameController.clear();
     emailController.clear();
     commentController.clear();

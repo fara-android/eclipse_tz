@@ -1,5 +1,5 @@
-import 'package:bloc/bloc.dart';
 import 'package:eclipse_tz/app/domain/use_cases/user_use_case.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import '../../../data/entities/user/user_entity.dart';
 

@@ -1,6 +1,6 @@
-import 'package:bloc/bloc.dart';
 import 'package:eclipse_tz/app/data/entities/post/post_entity.dart';
 import 'package:eclipse_tz/app/domain/use_cases/post_use_case.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'get_posts_cubit.freezed.dart';
