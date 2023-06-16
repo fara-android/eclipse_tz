@@ -1,14 +1,14 @@
+import 'package:eclipse_tz/app/data/entities/album_with_photos/album_with_photos_entity.dart';
+import 'package:eclipse_tz/app/data/entities/user/user_entity.dart';
 import 'package:flutter/material.dart';
-import '../../../../data/models/album_model.dart';
-import '../../../../data/models/user_model.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_text_styles.dart';
 import 'album_detail_page.dart';
 import 'components/album_card.dart';
 
 class AllAlbumsPage extends StatelessWidget {
-  final UserModel user;
-  final List<AlbumModelWithPhotos> albums;
+  final UserEntity user;
+  final List<AlbumWithPhotosEntity> albums;
 
   const AllAlbumsPage({
     required this.user,

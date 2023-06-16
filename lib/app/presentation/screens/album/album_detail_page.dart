@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:eclipse_tz/data/models/album_model.dart';
+import 'package:eclipse_tz/app/data/entities/album_with_photos/album_with_photos_entity.dart';
 import 'package:eclipse_tz/app/presentation/theme/app_colors.dart';
 import 'package:eclipse_tz/app/presentation/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
 class AlbumDetailPage extends StatelessWidget {
-  final AlbumModelWithPhotos album;
+  final AlbumWithPhotosEntity album;
   const AlbumDetailPage({
     required this.album,
     Key? key,

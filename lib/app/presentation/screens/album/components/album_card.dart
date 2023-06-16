@@ -1,8 +1,8 @@
-import 'package:eclipse_tz/data/models/album_model.dart';
+import 'package:eclipse_tz/app/data/entities/album_with_photos/album_with_photos_entity.dart';
 import 'package:flutter/material.dart';
 
 class AlbumCard extends StatelessWidget {
-  final AlbumModelWithPhotos album;
+  final AlbumWithPhotosEntity album;
 
   const AlbumCard({
     required this.album,

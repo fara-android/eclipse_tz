@@ -1,15 +1,14 @@
+import 'package:eclipse_tz/app/data/entities/post/post_entity.dart';
+import 'package:eclipse_tz/app/data/entities/user/user_entity.dart';
+import 'package:eclipse_tz/app/presentation/screens/post/post_detail_page.dart';
 import 'package:flutter/material.dart';
-
-import '../../../../data/models/post_model.dart';
-import '../../../../data/models/user_model.dart';
-import 'components/post_card.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_text_styles.dart';
-import 'post_detail_page.dart';
+import 'components/post_card.dart';
 
 class AllPostsPage extends StatefulWidget {
-  final UserModel user;
-  final List<PostModel> posts;
+  final UserEntity user;
+  final List<PostEntity> posts;
 
   const AllPostsPage({
     required this.user,

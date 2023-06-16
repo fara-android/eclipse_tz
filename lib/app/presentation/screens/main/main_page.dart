@@ -43,7 +43,7 @@ class MainPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) => UserPage(
-                              userModel: users[index],
+                              userEntity: users[index],
                             ),
                           ),
                         );
