@@ -7,7 +7,7 @@ part 'get_all_users_cubit.freezed.dart';
 
 class GetAllUsersCubit extends Cubit<GetAllUsersState> {
   final UserUseCase useCase;
-  GetAllUsersCubit({required this.useCase})
+  GetAllUsersCubit(this.useCase)
       : super(const GetAllUsersState.initial());
 
   Future<void> getUsers() async {

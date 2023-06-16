@@ -1,6 +1,6 @@
 import 'package:eclipse_tz/data/models/post_model.dart';
-import 'package:eclipse_tz/presentation/theme/app_colors.dart';
-import 'package:eclipse_tz/presentation/theme/app_text_styles.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_colors.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
 class PostCard extends StatelessWidget {

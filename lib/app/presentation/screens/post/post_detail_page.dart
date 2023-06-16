@@ -1,12 +1,13 @@
 import 'package:eclipse_tz/data/models/comment_model.dart';
 import 'package:eclipse_tz/data/models/post_model.dart';
 import 'package:eclipse_tz/data/services/api_service.dart';
-import 'package:eclipse_tz/presentation/shared_widgets/comment_card.dart';
-import 'package:eclipse_tz/presentation/shared_widgets/custom_text_field.dart';
-import 'package:eclipse_tz/presentation/shared_widgets/loader.dart';
-import 'package:eclipse_tz/presentation/theme/app_colors.dart';
-import 'package:eclipse_tz/presentation/theme/app_text_styles.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_colors.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
+
+import '../../widgets/comment_card.dart';
+import '../../widgets/custom_text_field.dart';
+import '../../widgets/loader.dart';
 
 class PostDetailPage extends StatefulWidget {
   final PostModel post;

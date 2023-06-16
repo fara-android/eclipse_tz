@@ -2,16 +2,16 @@ import 'package:eclipse_tz/data/models/album_model.dart';
 import 'package:eclipse_tz/data/models/post_model.dart';
 import 'package:eclipse_tz/data/models/user_model.dart';
 import 'package:eclipse_tz/data/services/api_service.dart';
-import 'package:eclipse_tz/presentation/album_detail_page.dart';
-import 'package:eclipse_tz/presentation/all_albums_page.dart';
-import 'package:eclipse_tz/presentation/all_posts_page.dart';
-import 'package:eclipse_tz/presentation/post_detail_page.dart';
-import 'package:eclipse_tz/presentation/shared_widgets/album_card.dart';
-import 'package:eclipse_tz/presentation/shared_widgets/loader.dart';
-import 'package:eclipse_tz/presentation/shared_widgets/post_card.dart';
-import 'package:eclipse_tz/presentation/theme/app_colors.dart';
-import 'package:eclipse_tz/presentation/theme/app_text_styles.dart';
+import 'package:eclipse_tz/app/presentation/screens/album/components/album_card.dart';
+import 'package:eclipse_tz/app/presentation/screens/post/components/post_card.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_colors.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
+import '../../widgets/loader.dart';
+import '../album/album_detail_page.dart';
+import '../album/all_albums_page.dart';
+import '../post/all_posts_page.dart';
+import '../post/post_detail_page.dart';
 
 class UserPage extends StatefulWidget {
   final UserModel userModel;

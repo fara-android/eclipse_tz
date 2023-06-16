@@ -1,4 +1,4 @@
-import 'package:eclipse_tz/presentation/theme/app_text_styles.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomTextField extends StatelessWidget {

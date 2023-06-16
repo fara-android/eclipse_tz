@@ -1,11 +1,10 @@
 import 'package:eclipse_tz/data/models/user_model.dart';
 import 'package:eclipse_tz/data/services/api_service.dart';
-import 'package:eclipse_tz/presentation/theme/app_colors.dart';
-import 'package:eclipse_tz/presentation/theme/app_text_styles.dart';
-import 'package:eclipse_tz/presentation/user_page.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_colors.dart';
+import 'package:eclipse_tz/app/presentation/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
-
-import 'shared_widgets/loader.dart';
+import '../../widgets/loader.dart';
+import '../user/user_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
